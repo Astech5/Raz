@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> RAZ Responsive Website Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			padding: 15px;
+			margin: 60px;
+			background-color: brown;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: whitesmoke;
+			color: green;
+			padding: 15px;
+			margin: 30px;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #f39407dc;
+			padding: 20px;
+			margin: 40px;
+			font-family: letter-spacing: 5px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+			font-family: letter-spacing:5px;
+		}
+
+		nav li {
+			margin: 0 10px;
+			font-size: 1rem;
+			font-family: letter-spacing: 5px;
+		}
+
+		main {
+			padding: 20px;
+
+		}
+
+		section {
+			margin-bottom: 20px;
+		}
+
+		.container1 {
+			justify-items: normal;
+			color: wheat;
+			font-size: 1em;
+			font: bold;
+		}
+
+		.container2 {
+			color: hotpink;
+			font: bold;
+		}
+
+		.container3 {
+			color: darkorange;
+			font: bold;
+		}
+
+
+
+		@media only screen and (max-width: 600px) {
+			header {
+				font-size: 24px;
+				padding: 10px;
+			}
+
+			nav {
+				display: none;
+			}
+
+			nav ul {
+				flex-direction: column;
+			}
+
+			nav li {
+				margin: 10px 0;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1> Raz Responsive Website Test
+		</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Peter</a></li>
+			<li><a href="#">Adeshina</a></li>
+			<li><a href="#">Mike</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="container1">
+			<h2 style="color: cyan"> Peter </h2>
+			<p>The customer is very important, the customer will be followed by the customer. He has no desire for life,
+				and he has no desire to live. Until he invests in the market and does not have to drink, the price is
+				very easy. Mauris likes the taste. Donec convallis nibh quis mauris malesuada, eu dignissim leo
+				bibendum. Children are living with disease, old age and children, and they are suffering from hunger and
+				poverty. Now we have to drink the coffee or tincidunt convallis. It is not free of charge, but it needs
+				to be produced by CNN. Nunc laoreet, purus vel sagittis malesuada, tortor urna consequat before, vel
+				faucibus massa dolor id tellus. But it is said that the mauris is a lot of arcu ullamcorper, so as to
+				place the various earths. However, it is convenient for the free, not in the poison. </p>
+		</section>
+
+		<section class="container2">
+			<h2 style="color: rgba(126, 252, 0, 0.715);"> Adeshina</h2>
+			<p> Nulla facilisi. Vestibulum eu risus nulla. Sed at luctus ex.
+				Nullam euismod, velit et tincidunt bibendum,
+				risus est mollis ligula, vitae dictum nibh purus eu lectus.
+			</p>
+		</section>
+
+		<section class="container3">
+			<h2 style="color:rgba(5, 206, 237, 0.696);">Mike </h2>
+			<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ex tenetur? Rem excepturi perspiciatis
+				id officia deleniti dolore adipisci voluptatum qui voluptas, ipsum, doloremque voluptatibus
+				accusamus hic itaque nisi expedita. </p>
+		</section>
+
+
+
+
+</body>
+
+</html>
